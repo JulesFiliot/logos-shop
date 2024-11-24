@@ -6,7 +6,7 @@ type GridProps = {
   gap?: string
 }
 
-const Grid = ({
+export const Grid = ({
   columns = 2,
   gap = '8px',
   children,
@@ -17,8 +17,6 @@ const Grid = ({
     </GridContainer>
   )
 }
-
-export default Grid
 
 const GridContainer = styled.div<GridProps>`
   display: grid;
