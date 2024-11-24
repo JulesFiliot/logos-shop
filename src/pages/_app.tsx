@@ -40,8 +40,8 @@ export default function App({ Component, pageProps }: AppLayoutProps) {
 
           html,
           body {
-            background: white;
-            color: black;
+            background: rgb(var(--lsd-surface-primary));
+            color: rgb(var(--lsd-text-primary));
             margin: 0;
             width: 100%;
             height: 100%;
@@ -60,7 +60,7 @@ export default function App({ Component, pageProps }: AppLayoutProps) {
           a:hover,
           a:active,
           a:focus {
-            color: black;
+            color: rgb(var(--lsd-text-primary));
           }
 
           h1,
@@ -73,6 +73,18 @@ export default function App({ Component, pageProps }: AppLayoutProps) {
             margin: 0;
             padding: 0;
             word-break: keep-all;
+          }
+
+          [data-theme='light'] {
+            .light-mode-hidden {
+              display: none !important;
+            }
+          }
+
+          [data-theme='dark'] {
+            .dark-mode-hidden {
+              display: none !important;
+            }
           }
         `}
       />
