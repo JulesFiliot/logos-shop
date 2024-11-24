@@ -2,7 +2,7 @@ import { AcidIcon } from '@/components/Icons/AcidIcon'
 import { NavLink } from '@/components/NavLink'
 import { ThemeSwitch } from '@/components/ThemeSwitch'
 import { NavLinksItems } from '@/configs/data.configs'
-import { uiConfigs } from '@/configs/ui.configs'
+import { breakpoints, uiConfigs } from '@/configs/ui.configs'
 import useThemeState from '@/states/themeState/theme.state'
 import { ButtonGroup } from '@acid-info/lsd-react'
 import styled from '@emotion/styled'
@@ -70,13 +70,17 @@ const LogoWrapper = styled.div`
 const StyledButtonGroup = styled(ButtonGroup)<{ side: 'left' | 'right' }>`
   display: flex;
   justify-content: center;
-  padding-left: ${({ side }) => (side === 'left' ? '6rem' : '5rem')};
-  padding-right: ${({ side }) => (side === 'left' ? '5rem' : '6rem')};
+  ${({ side }) => side === 'right' && 'padding-right: calc(34px + 10px);'}
+  padding-${({ side }) => (side === 'left' ? 'right' : 'left')}: 64px;
+
+  @media (max-width: ${breakpoints.lg}px) {
+    padding-${({ side }) => (side === 'left' ? 'right' : 'left')}: 32px;
+  }
 `
 
 const ThemeSwitchWrapper = styled.div`
   position: absolute;
-  right: 10px;
+  right: 0;
   height: 100%;
   display: flex;
   align-items: center;

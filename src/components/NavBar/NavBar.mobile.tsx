@@ -27,7 +27,7 @@ export const NavBarMobile = ({
 
   return (
     <MenuContainer>
-      <Header className="menu">
+      <Header>
         <div />
         <AcidIcon />
         <ActionButtons>
@@ -42,7 +42,7 @@ export const NavBarMobile = ({
       </Header>
 
       <MenuPanel isOpen={isOpen}>
-        <Header className="panel">
+        <Header>
           <div />
           <AcidIcon />
           <ActionButtons size="medium" variant="outlined">
@@ -98,15 +98,6 @@ const Header = styled.div`
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-
-  &.menu {
-    padding-inline: 10px;
-    width: calc(100vw - 20px);
-  }
-
-  &.panel {
-    width: 100%;
-  }
 `
 
 const ActionButtons = styled(IconButtonGroup)`

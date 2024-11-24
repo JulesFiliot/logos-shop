@@ -1,5 +1,3 @@
-import { breakpoints } from '@/configs/ui.configs'
-import styled from '@emotion/styled'
 import React from 'react'
 
 export type AboutPageProps = React.DetailedHTMLProps<
@@ -12,14 +10,8 @@ export const AboutContainer: React.FC<AboutPageProps> = ({
   ...props
 }) => {
   return (
-    <Container {...props}>
+    <div {...props}>
       <h1>About</h1>
-    </Container>
+    </div>
   )
 }
-
-const Container = styled.div`
-  @media (max-width: ${breakpoints.lg}px) {
-    margin-inline: 10px;
-  }
-`

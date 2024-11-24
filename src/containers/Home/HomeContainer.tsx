@@ -1,6 +1,4 @@
-import { breakpoints } from '@/configs/ui.configs'
 import { Button } from '@acid-info/lsd-react'
-import styled from '@emotion/styled'
 import React from 'react'
 
 export type HomePageProps = React.DetailedHTMLProps<
@@ -13,14 +11,8 @@ export const HomeContainer: React.FC<HomePageProps> = ({
   ...props
 }) => {
   return (
-    <Container {...props}>
+    <div {...props}>
       <Button>Hello</Button>
-    </Container>
+    </div>
   )
 }
-
-const Container = styled.div`
-  @media (max-width: ${breakpoints.lg}px) {
-    margin-inline: 10px;
-  }
-`
