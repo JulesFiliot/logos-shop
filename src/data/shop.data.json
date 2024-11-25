@@ -1,0 +1,340 @@
+{
+  "products": [
+    {
+      "id": 15,
+      "title": "Smart Contract Network Tee",
+      "price": 35.99,
+      "type": "tshirt",
+      "createdAt": "2024-04-05T00:00:00Z",
+      "thumbnail": "/images/logos-tshirt-2.webm"
+    },
+    {
+      "id": 37,
+      "title": "Web3 Network Cap",
+      "price": 26.99,
+      "type": "cap",
+      "createdAt": "2024-04-08T00:00:00Z",
+      "thumbnail": "/images/logos-cap-2.webp"
+    },
+    {
+      "id": 22,
+      "title": "Zero Knowledge Expert Tee",
+      "price": 34.99,
+      "type": "tshirt",
+      "createdAt": "2024-03-22T00:00:00Z",
+      "thumbnail": "/images/logos-tshirt-1.webm"
+    },
+    {
+      "id": 8,
+      "title": "Zero Knowledge Proof Tee",
+      "price": 33.99,
+      "type": "tshirt",
+      "createdAt": "2024-03-08T00:00:00Z",
+      "thumbnail": "/images/logos-tshirt-2.webm"
+    },
+    {
+      "id": 31,
+      "title": "DeFi Solutions Tee",
+      "price": 31.99,
+      "type": "tshirt",
+      "createdAt": "2024-03-30T00:00:00Z",
+      "thumbnail": "/images/logos-tshirt-1.webm"
+    },
+    {
+      "id": 4,
+      "title": "Blockchain Revolution Tee",
+      "price": 32.99,
+      "type": "tshirt",
+      "createdAt": "2024-03-04T00:00:00Z",
+      "thumbnail": "/images/logos-tshirt-2.webm"
+    },
+    {
+      "id": 25,
+      "title": "DeFi Explorer Cap",
+      "price": 29.99,
+      "type": "cap",
+      "createdAt": "2024-03-25T00:00:00Z",
+      "thumbnail": "/images/logos-cap-1.webp"
+    },
+    {
+      "id": 12,
+      "title": "Web3 Innovation Tee",
+      "price": 34.99,
+      "type": "tshirt",
+      "createdAt": "2024-03-12T00:00:00Z",
+      "thumbnail": "/images/logos-tshirt-2.webm"
+    },
+    {
+      "id": 1,
+      "title": "Logos Classic Cap",
+      "price": 29.99,
+      "type": "cap",
+      "createdAt": "2024-03-01T00:00:00Z",
+      "thumbnail": "/images/logos-cap-1.webp"
+    },
+    {
+      "id": 40,
+      "title": "Smart Contract Builder Cap",
+      "price": 28.99,
+      "type": "cap",
+      "createdAt": "2024-04-10T00:00:00Z",
+      "thumbnail": "/images/logos-cap-1.webp"
+    },
+    {
+      "id": 18,
+      "title": "DeFi Builder Tee",
+      "price": 33.99,
+      "type": "tshirt",
+      "createdAt": "2024-03-18T00:00:00Z",
+      "thumbnail": "/images/logos-tshirt-1.webm"
+    },
+    {
+      "id": 29,
+      "title": "Web3 Developer Cap",
+      "price": 26.99,
+      "type": "cap",
+      "createdAt": "2024-03-29T00:00:00Z",
+      "thumbnail": "/images/logos-cap-1.webp"
+    },
+    {
+      "id": 33,
+      "title": "Blockchain Network Cap",
+      "price": 27.99,
+      "type": "cap",
+      "createdAt": "2024-04-02T00:00:00Z",
+      "thumbnail": "/images/logos-cap-1.webp"
+    },
+    {
+      "id": 6,
+      "title": "DeFi Developer Tee",
+      "price": 35.99,
+      "type": "tshirt",
+      "createdAt": "2024-03-06T00:00:00Z",
+      "thumbnail": "/images/logos-tshirt-1.webm"
+    },
+    {
+      "id": 27,
+      "title": "Crypto Innovation Cap",
+      "price": 28.99,
+      "type": "cap",
+      "createdAt": "2024-03-27T00:00:00Z",
+      "thumbnail": "/images/logos-cap-2.webp"
+    },
+    {
+      "id": 16,
+      "title": "Smart Contract Expert Tee",
+      "price": 35.99,
+      "type": "tshirt",
+      "createdAt": "2024-03-16T00:00:00Z",
+      "thumbnail": "/images/logos-tshirt-2.webm"
+    },
+    {
+      "id": 35,
+      "title": "DeFi Pioneer Cap",
+      "price": 29.99,
+      "type": "cap",
+      "createdAt": "2024-04-04T00:00:00Z",
+      "thumbnail": "/images/logos-cap-2.webp"
+    },
+    {
+      "id": 10,
+      "title": "Layer 2 Solutions Tee",
+      "price": 31.99,
+      "type": "tshirt",
+      "createdAt": "2024-03-10T00:00:00Z",
+      "thumbnail": "/images/logos-tshirt-1.webm"
+    },
+    {
+      "id": 2,
+      "title": "Ethereum Developer Tee",
+      "price": 34.99,
+      "type": "tshirt",
+      "createdAt": "2024-03-02T00:00:00Z",
+      "thumbnail": "/images/logos-tshirt-1.webm"
+    },
+    {
+      "id": 23,
+      "title": "Blockchain Pioneer Cap",
+      "price": 27.99,
+      "type": "cap",
+      "createdAt": "2024-03-23T00:00:00Z",
+      "thumbnail": "/images/logos-cap-2.webp"
+    },
+    {
+      "id": 39,
+      "title": "DeFi Expert Tee",
+      "price": 31.99,
+      "type": "tshirt",
+      "createdAt": "2024-04-09T00:00:00Z",
+      "thumbnail": "/images/logos-tshirt-2.webm"
+    },
+    {
+      "id": 14,
+      "title": "Blockchain Developer Tee",
+      "price": 32.99,
+      "type": "tshirt",
+      "createdAt": "2024-03-14T00:00:00Z",
+      "thumbnail": "/images/logos-tshirt-1.webm"
+    },
+    {
+      "id": 20,
+      "title": "Blockchain Architecture Tee",
+      "price": 31.99,
+      "type": "tshirt",
+      "createdAt": "2024-03-20T00:00:00Z",
+      "thumbnail": "/images/logos-tshirt-2.webm"
+    },
+    {
+      "id": 3,
+      "title": "Web3 Builder Cap",
+      "price": 27.99,
+      "type": "cap",
+      "createdAt": "2024-03-03T00:00:00Z",
+      "thumbnail": "/images/logos-cap-2.webp"
+    },
+    {
+      "id": 26,
+      "title": "Smart Contract Pioneer Tee",
+      "price": 35.99,
+      "type": "tshirt",
+      "createdAt": "2024-03-26T00:00:00Z",
+      "thumbnail": "/images/logos-tshirt-1.webm"
+    },
+    {
+      "id": 11,
+      "title": "Blockchain Explorer Cap",
+      "price": 28.99,
+      "type": "cap",
+      "createdAt": "2024-03-11T00:00:00Z",
+      "thumbnail": "/images/logos-cap-2.webp"
+    },
+    {
+      "id": 32,
+      "title": "Crypto Builder Cap",
+      "price": 28.99,
+      "type": "cap",
+      "createdAt": "2024-03-31T00:00:00Z",
+      "thumbnail": "/images/logos-cap-2.webp"
+    },
+    {
+      "id": 7,
+      "title": "Smart Contract Wizard Cap",
+      "price": 29.99,
+      "type": "cap",
+      "createdAt": "2024-03-07T00:00:00Z",
+      "thumbnail": "/images/logos-cap-2.webp"
+    },
+    {
+      "id": 28,
+      "title": "Blockchain Expert Tee",
+      "price": 33.99,
+      "type": "tshirt",
+      "createdAt": "2024-03-28T00:00:00Z",
+      "thumbnail": "/images/logos-tshirt-2.webm"
+    },
+    {
+      "id": 5,
+      "title": "Crypto Pioneer Cap",
+      "price": 28.99,
+      "type": "cap",
+      "createdAt": "2024-03-05T00:00:00Z",
+      "thumbnail": "/images/logos-cap-1.webp"
+    },
+    {
+      "id": 30,
+      "title": "DeFi Solutions Tee",
+      "price": 31.99,
+      "type": "tshirt",
+      "createdAt": "2024-03-30T00:00:00Z",
+      "thumbnail": "/images/logos-tshirt-1.webm"
+    },
+    {
+      "id": 13,
+      "title": "Crypto Enthusiast Cap",
+      "price": 27.99,
+      "type": "cap",
+      "createdAt": "2024-03-13T00:00:00Z",
+      "thumbnail": "/images/logos-cap-1.webp"
+    },
+    {
+      "id": 34,
+      "title": "Web3 Expert Tee",
+      "price": 32.99,
+      "type": "tshirt",
+      "createdAt": "2024-04-03T00:00:00Z",
+      "thumbnail": "/images/logos-tshirt-1.webm"
+    },
+    {
+      "id": 9,
+      "title": "Decentralized Future Cap",
+      "price": 26.99,
+      "type": "cap",
+      "createdAt": "2024-03-09T00:00:00Z",
+      "thumbnail": "/images/logos-cap-1.webp"
+    },
+    {
+      "id": 36,
+      "title": "Crypto Expert Cap",
+      "price": 28.99,
+      "type": "cap",
+      "createdAt": "2024-04-06T00:00:00Z",
+      "thumbnail": "/images/logos-cap-1.webp"
+    },
+    {
+      "id": 19,
+      "title": "Web3 Pioneer Cap",
+      "price": 26.99,
+      "type": "cap",
+      "createdAt": "2024-03-19T00:00:00Z",
+      "thumbnail": "/images/logos-cap-2.webp"
+    },
+    {
+      "id": 38,
+      "title": "Blockchain Solutions Tee",
+      "price": 33.99,
+      "type": "tshirt",
+      "createdAt": "2024-04-07T00:00:00Z",
+      "thumbnail": "/images/logos-tshirt-1.webm"
+    },
+    {
+      "id": 17,
+      "title": "Crypto Network Cap",
+      "price": 28.99,
+      "type": "cap",
+      "createdAt": "2024-03-17T00:00:00Z",
+      "thumbnail": "/images/logos-cap-1.webp"
+    },
+    {
+      "id": 24,
+      "title": "Web3 Solutions Tee",
+      "price": 32.99,
+      "type": "tshirt",
+      "createdAt": "2024-03-24T00:00:00Z",
+      "thumbnail": "/images/logos-tshirt-2.webm"
+    },
+    {
+      "id": 21,
+      "title": "Crypto Developer Cap",
+      "price": 28.99,
+      "type": "cap",
+      "createdAt": "2024-03-21T00:00:00Z",
+      "thumbnail": "/images/logos-cap-1.webp"
+    },
+    {
+      "id": 41,
+      "title": "Zero Knowledge Network Tee",
+      "price": 34.99,
+      "type": "tshirt",
+      "createdAt": "2024-04-11T00:00:00Z",
+      "thumbnail": "/images/logos-tshirt-1.webm"
+    },
+    {
+      "id": 42,
+      "title": "Blockchain Builder Cap",
+      "price": 27.99,
+      "type": "cap",
+      "createdAt": "2024-04-12T00:00:00Z",
+      "thumbnail": "/images/logos-cap-2.webp"
+    }
+  ]
+}
