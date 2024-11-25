@@ -1,8 +1,10 @@
 import { SEO } from '@/components/SEO'
+import { ViewportGuard } from '@/components/ViewportGuard'
 import { ShopContainer } from '@/containers/Shop'
 import shopData from '@/data/shop.data.json'
 import { ProductType, ShopData } from '@/types/data.types'
 import { isValidProductType } from '@/utils/product.utils'
+import styled from '@emotion/styled'
 import { GetStaticProps } from 'next'
 
 interface ShopPageProps {
@@ -15,7 +17,11 @@ export default function ShopPage({ shopData }: ShopPageProps) {
   return (
     <>
       <SEO />
-      <ShopContainer shopData={shopData} />
+      <ViewportGuard>
+        <Content>
+          <ShopContainer shopData={shopData} />
+        </Content>
+      </ViewportGuard>
     </>
   )
 }
@@ -40,3 +46,8 @@ export const getStaticProps: GetStaticProps<ShopPageProps> = async () => {
     revalidate: REVALIDATE_TIME_SECONDS,
   }
 }
+
+const Content = styled.div`
+  display: flex;
+  justify-content: center;
+`
