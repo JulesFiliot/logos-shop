@@ -21,7 +21,7 @@
       "title": "Zero Knowledge Expert Tee",
       "price": 34.99,
       "type": "tshirt",
-      "createdAt": "2024-03-22T00:00:00Z",
+      "createdAt": "2010-03-22T00:00:00Z",
       "thumbnail": "/images/logos-tshirt-1.webm"
     },
     {
@@ -69,7 +69,7 @@
       "title": "Logos Classic Cap",
       "price": 29.99,
       "type": "cap",
-      "createdAt": "2024-03-01T00:00:00Z",
+      "createdAt": "2024-12-12T00:00:00Z",
       "thumbnail": "/images/logos-cap-1.webp"
     },
     {
@@ -101,7 +101,7 @@
       "title": "Blockchain Network Cap",
       "price": 27.99,
       "type": "cap",
-      "createdAt": "2024-04-02T00:00:00Z",
+      "createdAt": "2024-04-22T00:00:00Z",
       "thumbnail": "/images/logos-cap-1.webp"
     },
     {
@@ -149,7 +149,7 @@
       "title": "Ethereum Developer Tee",
       "price": 34.99,
       "type": "tshirt",
-      "createdAt": "2024-03-02T00:00:00Z",
+      "createdAt": "2019-03-02T00:00:00Z",
       "thumbnail": "/images/logos-tshirt-1.webm"
     },
     {
@@ -173,7 +173,7 @@
       "title": "Blockchain Developer Tee",
       "price": 32.99,
       "type": "tshirt",
-      "createdAt": "2024-03-14T00:00:00Z",
+      "createdAt": "2018-03-14T00:00:00Z",
       "thumbnail": "/images/logos-tshirt-1.webm"
     },
     {
@@ -181,7 +181,7 @@
       "title": "Blockchain Architecture Tee",
       "price": 31.99,
       "type": "tshirt",
-      "createdAt": "2024-03-20T00:00:00Z",
+      "createdAt": "2018-03-20T00:00:00Z",
       "thumbnail": "/images/logos-tshirt-2.webm"
     },
     {
@@ -317,7 +317,7 @@
       "title": "Crypto Developer Cap",
       "price": 28.99,
       "type": "cap",
-      "createdAt": "2024-03-21T00:00:00Z",
+      "createdAt": "2020-03-21T00:00:00Z",
       "thumbnail": "/images/logos-cap-1.webp"
     },
     {
@@ -325,16 +325,8 @@
       "title": "Zero Knowledge Network Tee",
       "price": 34.99,
       "type": "tshirt",
-      "createdAt": "2024-04-11T00:00:00Z",
+      "createdAt": "2023-04-11T00:00:00Z",
       "thumbnail": "/images/logos-tshirt-1.webm"
-    },
-    {
-      "id": 42,
-      "title": "Blockchain Builder Cap",
-      "price": 27.99,
-      "type": "cap",
-      "createdAt": "2024-04-12T00:00:00Z",
-      "thumbnail": "/images/logos-cap-2.webp"
     }
   ]
 }
