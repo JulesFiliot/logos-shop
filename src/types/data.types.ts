@@ -15,3 +15,5 @@ export interface ProductItem {
 export interface ShopData {
   products: ProductItem[]
 }
+
+export type FilteredProductType = ProductType | 'all'
