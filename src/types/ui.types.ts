@@ -12,3 +12,15 @@ export type FooterGroup = {
   key?: string
   links: FooterItem[]
 }
+
+export type ShopGridConfig = {
+  columns: number
+  cellWidth: number
+  cellHeight: number
+}
+
+export type ShopGridConfigs = {
+  xl: ShopGridConfig
+  md: ShopGridConfig
+  sm: ShopGridConfig
+}

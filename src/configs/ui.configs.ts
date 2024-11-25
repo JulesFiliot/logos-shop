@@ -1,3 +1,5 @@
+import { ShopGridConfigs } from '@/types/ui.types'
+
 export const uiConfigs = {
   navbarRenderedHeight: 80,
   navbarMobileHeight: 60,
@@ -10,6 +12,24 @@ export const breakpoints = {
   md: 1024,
   lg: 1280,
   xl: 1440,
+}
+
+export const shopGridConfigs: ShopGridConfigs = {
+  xl: {
+    columns: 4,
+    cellWidth: 308,
+    cellHeight: 368,
+  },
+  md: {
+    columns: 2,
+    cellWidth: 308,
+    cellHeight: 368,
+  },
+  sm: {
+    columns: 1,
+    cellWidth: 355,
+    cellHeight: 430,
+  },
 }
 
 export const footerBUs = [
