@@ -26,7 +26,7 @@ export const Product = ({ product, onClick = () => {} }: ProductProps) => {
         thumbnail={product.thumbnail}
         title={product.title}
         width="100%"
-        height="338px"
+        height="100%"
       />
       <ProductInfo>
         <ProductTitle className={isActive ? 'active' : ''}>
@@ -51,7 +51,8 @@ const activeColorStyles = `
 const ProductButton = styled(Button)`
   padding: 14px;
   width: 100%;
-  height: 430px;
+  height: 100%;
+  border: none;
 
   > span {
     width: 100%;
