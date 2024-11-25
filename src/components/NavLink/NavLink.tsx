@@ -1,4 +1,4 @@
-import { useIsMobile } from '@/../hooks/useIsMobile'
+import { useBreakpoint } from '@/../hooks/useBreakpoint'
 import { Button } from '@acid-info/lsd-react'
 import styled from '@emotion/styled'
 import Link from 'next/link'
@@ -16,7 +16,7 @@ export const NavLink = ({
   isActive = false,
   label,
 }: NavLinkProps) => {
-  const isMobile = useIsMobile()
+  const isMobile = useBreakpoint().isXs
 
   return (
     <LinkStyled href={href} onClick={onClick}>
