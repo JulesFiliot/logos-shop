@@ -3,12 +3,12 @@ import { GetServerSideProps } from 'next'
 export const getServerSideProps: GetServerSideProps = async () => {
   return {
     redirect: {
-      destination: '/shop',
+      destination: '/articles',
       permanent: true,
     },
   }
 }
 
-export default function HomePage() {
+export default function IndexPage() {
   return null
 }
