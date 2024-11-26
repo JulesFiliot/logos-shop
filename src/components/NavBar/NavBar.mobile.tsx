@@ -1,4 +1,5 @@
-import { AcidIcon } from '@/components/Icons/AcidIcon'
+import { AcidIconDark } from '@/components/Icons/AcidIconDark'
+import { AcidIconLight } from '@/components/Icons/AcidIconLight'
 import { NavLink } from '@/components/NavLink'
 import { ThemeSwitch } from '@/components/ThemeSwitch'
 import { NavLinksItems } from '@/configs/data.configs'
@@ -29,7 +30,8 @@ export const NavBarMobile = ({
     <MenuContainer>
       <Header>
         <div />
-        <AcidIcon />
+        <AcidIconLight className="dark-mode-hidden" />
+        <AcidIconDark className="light-mode-hidden" />
         <ActionButtons>
           <IconButton
             size="medium"
@@ -44,7 +46,8 @@ export const NavBarMobile = ({
       <MenuPanel isOpen={isOpen}>
         <Header>
           <div />
-          <AcidIcon />
+          <AcidIconLight className="dark-mode-hidden" />
+          <AcidIconDark className="light-mode-hidden" />
           <ActionButtons size="medium" variant="outlined">
             <ThemeSwitch toggle={toggleMode} />
             <IconButton onClick={() => setIsOpen(false)}>

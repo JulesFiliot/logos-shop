@@ -1,4 +1,5 @@
-import { AcidIcon } from '@/components/Icons/AcidIcon'
+import { AcidIconDark } from '@/components/Icons/AcidIconDark'
+import { AcidIconLight } from '@/components/Icons/AcidIconLight'
 import { NavLink } from '@/components/NavLink'
 import { ThemeSwitch } from '@/components/ThemeSwitch'
 import { NavLinksItems } from '@/configs/data.configs'
@@ -23,7 +24,8 @@ export const NavBar = ({ currentPath }: NavBarProps) => {
     <Container>
       <NavLinkGroup links={leftLinks} side="left" currentPath={currentPath} />
       <LogoWrapper>
-        <AcidIcon />
+        <AcidIconLight className="dark-mode-hidden" />
+        <AcidIconDark className="light-mode-hidden" />
       </LogoWrapper>
       <NavLinkGroup links={rightLinks} side="right" currentPath={currentPath} />
       <ThemeSwitchWrapper>

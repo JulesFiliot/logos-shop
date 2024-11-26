@@ -1,6 +1,6 @@
 import { LsdIcon } from '@acid-info/lsd-react'
 
-export const AcidIcon = LsdIcon(
+export const AcidIconLight = LsdIcon(
   (props) => (
     <svg
       xmlns="http://www.w3.org/2000/svg"
