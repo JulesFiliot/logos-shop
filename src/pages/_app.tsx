@@ -34,10 +34,6 @@ export default function App({ Component, pageProps }: AppLayoutProps) {
       </Head>
       <Global
         styles={css`
-          :root {
-            --lsd-text-secondary: 255, 255, 255;
-          }
-
           html,
           body {
             background: rgb(var(--lsd-surface-primary));
